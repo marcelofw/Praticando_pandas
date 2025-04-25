@@ -23,21 +23,3 @@ df = pd.read_csv("dataset.csv")
 #print(df.head())
 df["Pedido_Segmento"] = df["ID_Pedido"].str.cat(df["Segmento"], sep = "-")
 print(df.head())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
