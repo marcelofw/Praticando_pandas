@@ -20,15 +20,12 @@ df["species"] = data["target"]
 # df[columns].plot.area()
 # plt.show()
 
+# df.groupby("species").mean().plot.bar()
+# plt.show()
 
+# df.groupby("species").count().plot.pie(y = "sepal length (cm)")
+# plt.show()
 
-
-
-
-
-
-
-
-
-
-
+# columns = ["sepal length (cm)", "petal length (cm)", "petal width (cm)", "sepal width (cm)"]
+# df[columns].plot.box(figsize = (8,8))
+# plt.show()
